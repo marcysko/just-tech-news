@@ -1,10 +1,5 @@
-<ol class="post-list">
-  {{#each posts as |post|}}
-  <li>
-    {{> post-info post }}
-  </li>
-  {{/each}}
-</ol>
+{{> post-info post}}
+
 {{#if loggedIn}}
 <form class="comment-form">
   <div>
